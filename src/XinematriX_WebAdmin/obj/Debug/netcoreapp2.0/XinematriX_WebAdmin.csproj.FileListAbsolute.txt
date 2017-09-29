@@ -1,0 +1,12 @@
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_WebAdmin.deps.json
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_WebAdmin.runtimeconfig.json
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_WebAdmin.runtimeconfig.dev.json
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_WebAdmin.dll
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_WebAdmin.pdb
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.csprojResolveAssemblyReference.cache
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.csproj.CoreCompileInputs.cache
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.AssemblyInfoInputs.cache
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.AssemblyInfo.cs
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.dll
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.pdb
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_Models.dll

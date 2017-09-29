@@ -1,0 +1,6 @@
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_DataAccess\bin\Debug\netcoreapp2.0\XinematriX_DataAccess.deps.json
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_DataAccess\bin\Debug\netcoreapp2.0\XinematriX_DataAccess.dll
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.AssemblyInfoInputs.cache
+C:\Users\AcsDan\source\repos\XinematriX\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.AssemblyInfo.cs
