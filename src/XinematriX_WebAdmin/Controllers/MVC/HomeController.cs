@@ -15,5 +15,15 @@ namespace XinematriX_WebAdmin.Controllers.MVC
         {
             return View();
         }
+
+        public IActionResult AddMovie()
+        {
+            return View();
+        }
+
+        public IActionResult Profile()
+        {
+            return View();
+        }
     }
 }

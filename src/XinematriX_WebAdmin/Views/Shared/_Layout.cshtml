@@ -2,7 +2,7 @@
 <html>
 <head>
     <!-- Title -->
-    <title>@ViewData["Title"] | XinematriX</title>
+    <title>@ViewData["Title"]</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta charset="UTF-8">
     <meta name="description" content="XinematriX" />
@@ -92,9 +92,9 @@
                     </div>
                 </div>
                 <ul class="menu accordion-menu">
-                    <li class="active"><a href="index.html" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-film"></span><p>ALL MOVIES</p></a></li>
-                    <li><a href="profile.html" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-plus"></span><p>NEW MOVIE</p></a></li>
-                    <li><a href="profile.html" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-user"></span><p>MANAGE PROFILE</p></a></li>
+                    <li class="active"><a href="/Home/Index" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-film"></span><p>ALL MOVIES</p></a></li>
+                    <li><a href="/Home/AddMovie" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-plus"></span><p>NEW MOVIE</p></a></li>
+                    <li><a href="/Home/Profile" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-user"></span><p>MANAGE PROFILE</p></a></li>
 
                 </ul>
             </div>
@@ -103,13 +103,13 @@
         <!-- Page Sidebar -->
         <div class="page-inner">
             <div class="page-title">
-                <h3>Dashboard</h3>
-                <div class="page-breadcrumb">
+                <h3>@ViewData["PageHeading"]</h3>
+                @*<div class="page-breadcrumb">
                     <ol class="breadcrumb">
                         <li><a href="index.html">Home</a></li>
                         <li class="active">Dashboard</li>
                     </ol>
-                </div>
+                </div>*@
             </div>
             <div id="main-wrapper">
                 @RenderBody()
