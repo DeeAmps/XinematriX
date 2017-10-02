@@ -186,11 +186,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\AcsDan\\source\\repos\\XinematriX\\XinematriX_Models\\XinematriX_Models.csproj",
+      "projectUniqueName": "F:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj",
       "projectName": "XinematriX_Models",
-      "projectPath": "C:\\Users\\AcsDan\\source\\repos\\XinematriX\\XinematriX_Models\\XinematriX_Models.csproj",
+      "projectPath": "F:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj",
       "packagesPath": "C:\\Users\\AcsDan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AcsDan\\source\\repos\\XinematriX\\XinematriX_Models\\obj\\",
+      "outputPath": "F:\\XinematriX\\src\\XinematriX_Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

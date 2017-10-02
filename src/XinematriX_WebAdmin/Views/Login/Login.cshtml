@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
 <!DOCTYPE html>
@@ -9,22 +8,30 @@
     <meta name="viewport" content="width=device-width" />
     <title>Login</title>
     <link href="~/css/login.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
 </head>
 <body>
     <div class="wrapper fadeInDown">
         <div id="formContent">
             <!-- Tabs Titles -->
-            <h2 class="active">XinematriX</h2>
-
+            <br>
             <!-- Icon -->
             <div class="fadeIn first">
-                <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+                <img src="~/images/danny.png" id="icon" alt="User Icon" />
             </div>
-
+            @if (ViewData["ValidateCred"] != null)
+            {
+                <div class="alert alert-danger alert-dismissable" style="margin: 0 60px 0 60px">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>@ViewData["ValidateCred"]</strong>
+                </div>
+            }
             <!-- Login Form -->
-            <form>
-                <input type="text" id="login" class="fadeIn second" name="username" placeholder="login">
-                <input type="text" id="password" class="fadeIn third" name="password" placeholder="password">
+            <form method="post" asp-action="Login">
+                <input type="text" id="login" class="fadeIn second" name="username" placeholder="login" required>
+                <input type="password" id="password" class="fadeIn third" name="password" placeholder="password" required>
                 <input type="submit" class="fadeIn fourth" value="Log In">
             </form>
 
