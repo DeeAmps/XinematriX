@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinematriX_WebAdmin", "Xine
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinematriX_Models", "XinematriX_Models\XinematriX_Models.csproj", "{2C66B87E-EBE7-425A-B8AE-0ECC90B73099}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinematriX_Api", "XinematriX_Api\XinematriX_Api.csproj", "{2EBC6879-657B-42F9-B564-B6DAD0541C22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinematriX_DataAccess", "XinematriX_DataAccess\XinematriX_DataAccess.csproj", "{6C9AC137-CE44-4FD2-88D6-81A791C44EE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinematriX_DataAccess", "XinematriX_DataAccess\XinematriX_DataAccess.csproj", "{6C9AC137-CE44-4FD2-88D6-81A791C44EE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinematriX_Api", "XinematriX_Api\XinematriX_Api.csproj", "{D5DB4B6E-DC5A-4089-9B62-3540F8A281E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{2C66B87E-EBE7-425A-B8AE-0ECC90B73099}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C66B87E-EBE7-425A-B8AE-0ECC90B73099}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C66B87E-EBE7-425A-B8AE-0ECC90B73099}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2EBC6879-657B-42F9-B564-B6DAD0541C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2EBC6879-657B-42F9-B564-B6DAD0541C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2EBC6879-657B-42F9-B564-B6DAD0541C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2EBC6879-657B-42F9-B564-B6DAD0541C22}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6C9AC137-CE44-4FD2-88D6-81A791C44EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6C9AC137-CE44-4FD2-88D6-81A791C44EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C9AC137-CE44-4FD2-88D6-81A791C44EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C9AC137-CE44-4FD2-88D6-81A791C44EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DB4B6E-DC5A-4089-9B62-3540F8A281E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DB4B6E-DC5A-4089-9B62-3540F8A281E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DB4B6E-DC5A-4089-9B62-3540F8A281E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DB4B6E-DC5A-4089-9B62-3540F8A281E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
