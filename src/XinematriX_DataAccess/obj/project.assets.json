@@ -1645,8 +1645,6 @@
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
-        "Remotion.Linq.2.1.1.nupkg.sha512",
-        "Remotion.Linq.nuspec",
         "lib/net35/Remotion.Linq.XML",
         "lib/net35/Remotion.Linq.dll",
         "lib/net40/Remotion.Linq.XML",
@@ -1656,7 +1654,9 @@
         "lib/netstandard1.0/Remotion.Linq.dll",
         "lib/netstandard1.0/Remotion.Linq.xml",
         "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll",
-        "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml"
+        "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml",
+        "remotion.linq.2.1.1.nupkg.sha512",
+        "remotion.linq.nuspec"
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.4.0": {
@@ -3393,7 +3393,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AcsDan\\.nuget\\packages\\": {},
+    "C:\\Users\\danye\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -3402,25 +3402,24 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\AcsDan\\source\\repos\\XinematriX\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
+      "projectUniqueName": "C:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
       "projectName": "XinematriX_DataAccess",
-      "projectPath": "C:\\Users\\AcsDan\\source\\repos\\XinematriX\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
-      "packagesPath": "C:\\Users\\AcsDan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AcsDan\\source\\repos\\XinematriX\\XinematriX_DataAccess\\obj\\",
+      "projectPath": "C:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
+      "packagesPath": "C:\\Users\\danye\\.nuget\\packages\\",
+      "outputPath": "C:\\XinematriX\\src\\XinematriX_DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\AcsDan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\danye\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

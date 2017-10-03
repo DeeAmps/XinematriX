@@ -12533,7 +12533,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AcsDan\\.nuget\\packages\\": {},
+    "C:\\Users\\danye\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12542,25 +12542,24 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\AcsDan\\source\\repos\\XinematriX\\XinematriX_Api\\XinematriX_Api.csproj",
+      "projectUniqueName": "C:\\XinematriX\\src\\XinematriX_Api\\XinematriX_Api.csproj",
       "projectName": "XinematriX_Api",
-      "projectPath": "C:\\Users\\AcsDan\\source\\repos\\XinematriX\\XinematriX_Api\\XinematriX_Api.csproj",
-      "packagesPath": "C:\\Users\\AcsDan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AcsDan\\source\\repos\\XinematriX\\XinematriX_Api\\obj\\",
+      "projectPath": "C:\\XinematriX\\src\\XinematriX_Api\\XinematriX_Api.csproj",
+      "packagesPath": "C:\\Users\\danye\\.nuget\\packages\\",
+      "outputPath": "C:\\XinematriX\\src\\XinematriX_Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\AcsDan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\danye\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
