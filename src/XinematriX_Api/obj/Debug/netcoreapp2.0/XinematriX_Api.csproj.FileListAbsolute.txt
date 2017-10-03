@@ -17,3 +17,14 @@ C:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.csproj.C
 C:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.AssemblyInfoInputs.cache
 C:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.dll
 C:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.pdb
+H:\XinematriX\src\XinematriX_Api\bin\Debug\netcoreapp2.0\XinematriX_Api.deps.json
+H:\XinematriX\src\XinematriX_Api\bin\Debug\netcoreapp2.0\XinematriX_Api.runtimeconfig.json
+H:\XinematriX\src\XinematriX_Api\bin\Debug\netcoreapp2.0\XinematriX_Api.runtimeconfig.dev.json
+H:\XinematriX\src\XinematriX_Api\bin\Debug\netcoreapp2.0\XinematriX_Api.dll
+H:\XinematriX\src\XinematriX_Api\bin\Debug\netcoreapp2.0\XinematriX_Api.pdb
+H:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.csprojResolveAssemblyReference.cache
+H:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.csproj.CoreCompileInputs.cache
+H:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.AssemblyInfoInputs.cache
+H:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.AssemblyInfo.cs
+H:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.dll
+H:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.pdb

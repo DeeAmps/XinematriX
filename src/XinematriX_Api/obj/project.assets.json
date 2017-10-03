@@ -12542,11 +12542,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\XinematriX\\src\\XinematriX_Api\\XinematriX_Api.csproj",
+      "projectUniqueName": "H:\\XinematriX\\src\\XinematriX_Api\\XinematriX_Api.csproj",
       "projectName": "XinematriX_Api",
-      "projectPath": "C:\\XinematriX\\src\\XinematriX_Api\\XinematriX_Api.csproj",
+      "projectPath": "H:\\XinematriX\\src\\XinematriX_Api\\XinematriX_Api.csproj",
       "packagesPath": "C:\\Users\\danye\\.nuget\\packages\\",
-      "outputPath": "C:\\XinematriX\\src\\XinematriX_Api\\obj\\",
+      "outputPath": "H:\\XinematriX\\src\\XinematriX_Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12559,7 +12559,8 @@
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

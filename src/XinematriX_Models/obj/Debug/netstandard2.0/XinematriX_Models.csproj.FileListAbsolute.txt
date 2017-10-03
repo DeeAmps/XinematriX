@@ -16,3 +16,12 @@ F:\XinematriX\src\XinematriX_Models\obj\Debug\netstandard2.0\XinematriX_Models.A
 F:\XinematriX\src\XinematriX_Models\obj\Debug\netstandard2.0\XinematriX_Models.AssemblyInfo.cs
 F:\XinematriX\src\XinematriX_Models\obj\Debug\netstandard2.0\XinematriX_Models.dll
 F:\XinematriX\src\XinematriX_Models\obj\Debug\netstandard2.0\XinematriX_Models.pdb
+H:\XinematriX\src\XinematriX_Models\bin\Debug\netstandard2.0\XinematriX_Models.deps.json
+H:\XinematriX\src\XinematriX_Models\bin\Debug\netstandard2.0\XinematriX_Models.dll
+H:\XinematriX\src\XinematriX_Models\bin\Debug\netstandard2.0\XinematriX_Models.pdb
+H:\XinematriX\src\XinematriX_Models\obj\Debug\netstandard2.0\XinematriX_Models.csprojResolveAssemblyReference.cache
+H:\XinematriX\src\XinematriX_Models\obj\Debug\netstandard2.0\XinematriX_Models.csproj.CoreCompileInputs.cache
+H:\XinematriX\src\XinematriX_Models\obj\Debug\netstandard2.0\XinematriX_Models.AssemblyInfoInputs.cache
+H:\XinematriX\src\XinematriX_Models\obj\Debug\netstandard2.0\XinematriX_Models.AssemblyInfo.cs
+H:\XinematriX\src\XinematriX_Models\obj\Debug\netstandard2.0\XinematriX_Models.dll
+H:\XinematriX\src\XinematriX_Models\obj\Debug\netstandard2.0\XinematriX_Models.pdb
