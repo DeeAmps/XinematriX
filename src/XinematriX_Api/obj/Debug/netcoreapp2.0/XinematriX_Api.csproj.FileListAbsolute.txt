@@ -28,3 +28,5 @@ H:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.Assembly
 H:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.AssemblyInfo.cs
 H:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.dll
 H:\XinematriX\src\XinematriX_Api\obj\Debug\netcoreapp2.0\XinematriX_Api.pdb
+H:\XinematriX\src\XinematriX_Api\bin\Debug\netcoreapp2.0\XinematriX_DataAccess.dll
+H:\XinematriX\src\XinematriX_Api\bin\Debug\netcoreapp2.0\XinematriX_DataAccess.pdb
