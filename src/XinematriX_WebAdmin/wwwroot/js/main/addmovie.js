@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿"use strict";
 displayLoadingDialog();
 
@@ -13,3 +14,6 @@ function renderConfimedGrid()
     });
     dismissLoadingDialog();
 }
+=======
+﻿
+>>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd

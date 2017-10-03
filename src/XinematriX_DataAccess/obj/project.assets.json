@@ -3456,11 +3456,19 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
       "projectName": "XinematriX_DataAccess",
       "projectPath": "C:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
       "packagesPath": "C:\\Users\\danye\\.nuget\\packages\\",
       "outputPath": "C:\\XinematriX\\src\\XinematriX_DataAccess\\obj\\",
+=======
+      "projectUniqueName": "F:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
+      "projectName": "XinematriX_DataAccess",
+      "projectPath": "F:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
+      "packagesPath": "C:\\Users\\AcsDan\\.nuget\\packages\\",
+      "outputPath": "F:\\XinematriX\\src\\XinematriX_DataAccess\\obj\\",
+>>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
