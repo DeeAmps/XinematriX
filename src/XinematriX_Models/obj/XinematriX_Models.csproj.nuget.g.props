@@ -3,7 +3,15 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+<<<<<<< HEAD
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">H:\XinematriX\src\XinematriX_Models\obj\project.assets.json</ProjectAssetsFile>
+=======
+<<<<<<< HEAD
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">C:\XinematriX\src\XinematriX_Models\obj\project.assets.json</ProjectAssetsFile>
+=======
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">F:\XinematriX\src\XinematriX_Models\obj\project.assets.json</ProjectAssetsFile>
+>>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
+>>>>>>> refs/remotes/origin/danny
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\danye\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>

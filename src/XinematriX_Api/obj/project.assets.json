@@ -12617,11 +12617,27 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "H:\\XinematriX\\src\\XinematriX_Api\\XinematriX_Api.csproj",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\XinematriX\\src\\XinematriX_Api\\XinematriX_Api.csproj",
+>>>>>>> refs/remotes/origin/danny
       "projectName": "XinematriX_Api",
       "projectPath": "H:\\XinematriX\\src\\XinematriX_Api\\XinematriX_Api.csproj",
       "packagesPath": "C:\\Users\\danye\\.nuget\\packages\\",
+<<<<<<< HEAD
       "outputPath": "H:\\XinematriX\\src\\XinematriX_Api\\obj\\",
+=======
+      "outputPath": "C:\\XinematriX\\src\\XinematriX_Api\\obj\\",
+=======
+      "projectUniqueName": "F:\\XinematriX\\src\\XinematriX_Api\\XinematriX_Api.csproj",
+      "projectName": "XinematriX_Api",
+      "projectPath": "F:\\XinematriX\\src\\XinematriX_Api\\XinematriX_Api.csproj",
+      "packagesPath": "C:\\Users\\AcsDan\\.nuget\\packages\\",
+      "outputPath": "F:\\XinematriX\\src\\XinematriX_Api\\obj\\",
+>>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
+>>>>>>> refs/remotes/origin/danny
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

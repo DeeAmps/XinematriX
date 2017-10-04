@@ -3456,11 +3456,27 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "H:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
+>>>>>>> refs/remotes/origin/danny
       "projectName": "XinematriX_DataAccess",
       "projectPath": "H:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
       "packagesPath": "C:\\Users\\danye\\.nuget\\packages\\",
+<<<<<<< HEAD
       "outputPath": "H:\\XinematriX\\src\\XinematriX_DataAccess\\obj\\",
+=======
+      "outputPath": "C:\\XinematriX\\src\\XinematriX_DataAccess\\obj\\",
+=======
+      "projectUniqueName": "F:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
+      "projectName": "XinematriX_DataAccess",
+      "projectPath": "F:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
+      "packagesPath": "C:\\Users\\AcsDan\\.nuget\\packages\\",
+      "outputPath": "F:\\XinematriX\\src\\XinematriX_DataAccess\\obj\\",
+>>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
+>>>>>>> refs/remotes/origin/danny
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

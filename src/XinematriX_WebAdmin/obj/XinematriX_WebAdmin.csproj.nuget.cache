@@ -1,5 +1,13 @@
 {
   "version": 1,
+<<<<<<< HEAD
   "dgSpecHash": "j8UsdP0EIijlVklUSXOISp4rHHw4RBg6osi+5QyO5UWw3xzFuRkqqg+WS/MXb1XhiXsQzkrr/H/9aT3vCUJZIQ==",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "C8owP27JeMT2KqpsKPoGPJWLnTaFbx79Gd82lsljZxfnRvmhYWL30bHpkLqJDs0Js7+izGLIUkd2YaytPV3LLg==",
+=======
+  "dgSpecHash": "faeTAlFpULTowisfM5o8+1urzOSMEPReDe99zWc/Qcd3nbJH1K/ueFCtVIT8HogGfjYzKs+UR0cfVHyOgOR+2A==",
+>>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
+>>>>>>> refs/remotes/origin/danny
   "success": true
 }

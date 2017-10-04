@@ -13140,11 +13140,27 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "H:\\XinematriX\\src\\XinematriX_WebAdmin\\XinematriX_WebAdmin.csproj",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\XinematriX\\src\\XinematriX_WebAdmin\\XinematriX_WebAdmin.csproj",
+>>>>>>> refs/remotes/origin/danny
       "projectName": "XinematriX_WebAdmin",
       "projectPath": "H:\\XinematriX\\src\\XinematriX_WebAdmin\\XinematriX_WebAdmin.csproj",
       "packagesPath": "C:\\Users\\danye\\.nuget\\packages\\",
+<<<<<<< HEAD
       "outputPath": "H:\\XinematriX\\src\\XinematriX_WebAdmin\\obj\\",
+=======
+      "outputPath": "C:\\XinematriX\\src\\XinematriX_WebAdmin\\obj\\",
+=======
+      "projectUniqueName": "F:\\XinematriX\\src\\XinematriX_WebAdmin\\XinematriX_WebAdmin.csproj",
+      "projectName": "XinematriX_WebAdmin",
+      "projectPath": "F:\\XinematriX\\src\\XinematriX_WebAdmin\\XinematriX_WebAdmin.csproj",
+      "packagesPath": "C:\\Users\\AcsDan\\.nuget\\packages\\",
+      "outputPath": "F:\\XinematriX\\src\\XinematriX_WebAdmin\\obj\\",
+>>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
+>>>>>>> refs/remotes/origin/danny
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13163,8 +13179,18 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
+<<<<<<< HEAD
             "H:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj": {
               "projectPath": "H:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj"
+=======
+<<<<<<< HEAD
+            "C:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj": {
+              "projectPath": "C:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj"
+=======
+            "F:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj": {
+              "projectPath": "F:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj"
+>>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
+>>>>>>> refs/remotes/origin/danny
             }
           }
         }
