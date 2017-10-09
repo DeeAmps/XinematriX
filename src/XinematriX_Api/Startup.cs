@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using XinematriX.Models.Models;
 
-namespace XinematriX_Api
+namespace XinematriX.Api
 {
     public class Startup
     {
@@ -24,6 +19,9 @@ namespace XinematriX_Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddCors();
+            //services.Configure<AppConfig>(Configuration.GetSection("AppConfig"));
+            //services.AddOptions();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -33,7 +31,8 @@ namespace XinematriX_Api
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors(builder =>
+                builder.WithOrigins("http://localhost:3079/"));
             app.UseMvc();
         }
     }

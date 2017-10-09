@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinematriX_WebAdmin", "XinematriX_WebAdmin\XinematriX_WebAdmin.csproj", "{ADC01400-E925-4EC4-B7B4-9BCABDC9CF38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinematriX.WebAdmin", "XinematriX_WebAdmin\XinematriX.WebAdmin.csproj", "{ADC01400-E925-4EC4-B7B4-9BCABDC9CF38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinematriX_Models", "XinematriX_Models\XinematriX_Models.csproj", "{2C66B87E-EBE7-425A-B8AE-0ECC90B73099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinematriX.Models", "XinematriX_Models\XinematriX.Models.csproj", "{2C66B87E-EBE7-425A-B8AE-0ECC90B73099}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinematriX_DataAccess", "XinematriX_DataAccess\XinematriX_DataAccess.csproj", "{6C9AC137-CE44-4FD2-88D6-81A791C44EE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinematriX.DataAccess", "XinematriX_DataAccess\XinematriX.DataAccess.csproj", "{6C9AC137-CE44-4FD2-88D6-81A791C44EE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinematriX_Api", "XinematriX_Api\XinematriX_Api.csproj", "{D5DB4B6E-DC5A-4089-9B62-3540F8A281E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XinematriX.Api", "XinematriX_Api\XinematriX.Api.csproj", "{D5DB4B6E-DC5A-4089-9B62-3540F8A281E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

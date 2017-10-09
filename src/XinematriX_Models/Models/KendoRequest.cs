@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace XinematriX_Models.Models
+namespace XinematriX.Models.Models
 {
     public class KendoRequest
     {

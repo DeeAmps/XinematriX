@@ -186,19 +186,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj",
-      "projectName": "XinematriX_Models",
-      "projectPath": "C:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj",
+      "projectUniqueName": "C:\\XinematriX\\src\\XinematriX_Models\\XinematriX.Models.csproj",
+      "projectName": "XinematriX.Models",
+      "projectPath": "C:\\XinematriX\\src\\XinematriX_Models\\XinematriX.Models.csproj",
       "packagesPath": "C:\\Users\\danye\\.nuget\\packages\\",
       "outputPath": "C:\\XinematriX\\src\\XinematriX_Models\\obj\\",
-=======
-      "projectUniqueName": "F:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj",
-      "projectName": "XinematriX_Models",
-      "projectPath": "F:\\XinematriX\\src\\XinematriX_Models\\XinematriX_Models.csproj",
-      "packagesPath": "C:\\Users\\AcsDan\\.nuget\\packages\\",
-      "outputPath": "F:\\XinematriX\\src\\XinematriX_Models\\obj\\",
->>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

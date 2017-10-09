@@ -13,3 +13,12 @@ C:\XinematriX\src\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataA
 C:\XinematriX\src\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.AssemblyInfoInputs.cache
 C:\XinematriX\src\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.dll
 C:\XinematriX\src\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.pdb
+H:\XinematriX\src\XinematriX_DataAccess\bin\Debug\netcoreapp2.0\XinematriX_DataAccess.deps.json
+H:\XinematriX\src\XinematriX_DataAccess\bin\Debug\netcoreapp2.0\XinematriX_DataAccess.dll
+H:\XinematriX\src\XinematriX_DataAccess\bin\Debug\netcoreapp2.0\XinematriX_DataAccess.pdb
+H:\XinematriX\src\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.csprojResolveAssemblyReference.cache
+H:\XinematriX\src\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.csproj.CoreCompileInputs.cache
+H:\XinematriX\src\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.AssemblyInfoInputs.cache
+H:\XinematriX\src\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.AssemblyInfo.cs
+H:\XinematriX\src\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.dll
+H:\XinematriX\src\XinematriX_DataAccess\obj\Debug\netcoreapp2.0\XinematriX_DataAccess.pdb

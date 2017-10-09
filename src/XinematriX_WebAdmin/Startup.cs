@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using XinematriX.Models.Models;
 
-namespace XinematriX_WebAdmin
+namespace XinematriX.WebAdmin
 {
     public class Startup
     {
@@ -22,11 +19,18 @@ namespace XinematriX_WebAdmin
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            //services.Configure<AppConfig>(Configuration.GetSection("AppConfig"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            //var builder = new ConfigurationBuilder()
+            //.SetBasePath(env.ContentRootPath)
+            //.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+
+            //Configuration = builder.Build();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

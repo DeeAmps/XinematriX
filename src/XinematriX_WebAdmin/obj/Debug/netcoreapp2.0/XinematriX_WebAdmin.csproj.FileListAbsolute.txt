@@ -36,3 +36,16 @@ F:\XinematriX\src\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmi
 F:\XinematriX\src\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.AssemblyInfo.cs
 F:\XinematriX\src\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.dll
 F:\XinematriX\src\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.pdb
+H:\XinematriX\src\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_WebAdmin.deps.json
+H:\XinematriX\src\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_WebAdmin.runtimeconfig.json
+H:\XinematriX\src\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_WebAdmin.runtimeconfig.dev.json
+H:\XinematriX\src\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_WebAdmin.dll
+H:\XinematriX\src\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_WebAdmin.pdb
+H:\XinematriX\src\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_Models.dll
+H:\XinematriX\src\XinematriX_WebAdmin\bin\Debug\netcoreapp2.0\XinematriX_Models.pdb
+H:\XinematriX\src\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.csprojResolveAssemblyReference.cache
+H:\XinematriX\src\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.csproj.CoreCompileInputs.cache
+H:\XinematriX\src\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.AssemblyInfoInputs.cache
+H:\XinematriX\src\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.AssemblyInfo.cs
+H:\XinematriX\src\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.dll
+H:\XinematriX\src\XinematriX_WebAdmin\obj\Debug\netcoreapp2.0\XinematriX_WebAdmin.pdb

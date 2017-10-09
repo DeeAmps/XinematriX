@@ -923,6 +923,16 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "XinematriX.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/XinematriX.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XinematriX.Models.dll": {}
+        }
       }
     }
   },
@@ -3435,6 +3445,11 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
       ]
+    },
+    "XinematriX.Models/1.0.0": {
+      "type": "project",
+      "path": "../XinematriX_Models/XinematriX.Models.csproj",
+      "msbuildProject": "../XinematriX_Models/XinematriX.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3443,7 +3458,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.3",
       "Microsoft.EntityFrameworkCore.Tools >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "XinematriX.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3456,19 +3472,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
-      "projectName": "XinematriX_DataAccess",
-      "projectPath": "C:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
+      "projectUniqueName": "C:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX.DataAccess.csproj",
+      "projectName": "XinematriX.DataAccess",
+      "projectPath": "C:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX.DataAccess.csproj",
       "packagesPath": "C:\\Users\\danye\\.nuget\\packages\\",
       "outputPath": "C:\\XinematriX\\src\\XinematriX_DataAccess\\obj\\",
-=======
-      "projectUniqueName": "F:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
-      "projectName": "XinematriX_DataAccess",
-      "projectPath": "F:\\XinematriX\\src\\XinematriX_DataAccess\\XinematriX_DataAccess.csproj",
-      "packagesPath": "C:\\Users\\AcsDan\\.nuget\\packages\\",
-      "outputPath": "F:\\XinematriX\\src\\XinematriX_DataAccess\\obj\\",
->>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3486,7 +3494,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\XinematriX\\src\\XinematriX_Models\\XinematriX.Models.csproj": {
+              "projectPath": "C:\\XinematriX\\src\\XinematriX_Models\\XinematriX.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

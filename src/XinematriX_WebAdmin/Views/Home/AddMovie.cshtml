@@ -4,46 +4,145 @@
     ViewData["PageHeading"] = "Add New Movie";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<form>
+    <div class="row">
+        <div>
+            <div class="col-md-2">
+                <label for="MovieTitle" style="font-size: 15px"><strong>MOVIE TITLE</strong></label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" id="movietitle" placeholder="" required>
+            </div>
+        </div>
 
-<div class="row">
-    <div>
-        <div class="col-md-2">
-<<<<<<< HEAD
-            <label for="MovieTitle" style="font-size: 15px"><strong>MOVIE TITLE</strong></label>
-        </div>
-        <div class="col-md-4">
-            <input type="text" id="movietitle" placeholder="">
-=======
-            <label for="MovieTitle">Movie Title</label>
-        </div>
-        <div class="col-md-4">
-            <input type="text" class="form-control" id="movietitle" placeholder="">
->>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
+        <div>
+            <div class="col-md-3">
+                <label for="RunningTime" style="font-size: 15px"><strong>RUNNING TIME(HH:mm)</strong></label>
+            </div>
+            <div class="col-md-3">
+                <input id="runningtime" required>
+            </div>
         </div>
     </div>
+    <div class="row" style="margin-top: 3%">
+        <div>
+            <div class="col-md-2">
+                <label for="Rating" style="font-size: 15px"><strong>RATING</strong></label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" id="movierating" placeholder="" required>
+            </div>
+        </div>
 
-    <div>
-<<<<<<< HEAD
-        <div class="col-md-3">
-            <label for="RunningTime" style="font-size: 15px"><strong>RUNNING TIME(HH:mm)</strong></label>
-        </div>
-        <div class="col-md-3">
-            <input id="runningtime">
-=======
-        <div class="col-md-2">
-            <label for="RunningTime">Running Time</label>
-        </div>
-        <div class="col-md-4">
-            <input type="text" class="form-control" id="runningtime" placeholder="">
->>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
+        <div>
+            <div class="col-md-2">
+                <label for="MovieImage" style="font-size: 15px"><strong>COVER ART</strong></label>
+            </div>
+            <div class="col-md-4">
+                <input id="image" name="image" type="file" aria-label="file" required>
+                <div><small>Upload .png / .jpg only</small></div>
+            </div>
         </div>
     </div>
-</div>
+    <div class="row" style="margin-top: 3%">
+        <div>
+            <div class="col-md-2">
+                <label for="Genre" style="font-size: 15px"><strong>GENRE</strong></label>
+            </div>
+            <div class="col-md-4">
+                <select id="genre" required></select>
+            </div>
+        </div>
+
+        <div>
+            <div class="col-md-2">
+                <label for="MovieImage" style="font-size: 15px"><strong>TRAILER</strong></label>
+            </div>
+            <div class="col-md-4">
+                <input id="trailer" type="text" placeholder="YouTube Trailer Url">
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 3%">
+        <div>
+            <div class="col-md-2">
+                <label for="Cast" style="font-size: 15px"><strong>CAST</strong></label>
+            </div>
+            <div class="col-md-4">
+                <input id="cast" type="text" required>
+                <div><small>Enter names followed by a comma(",")</small></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="col-md-2">
+                <label for="Status" style="font-size: 15px"><strong>STATUS</strong></label>
+            </div>
+            <div class="col-md-4">
+                <input id="staus" type="text" required>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 3%">
+        <div>
+            <div class="col-md-2">
+                <label for="Synopsis" style="font-size: 15px"><strong>SYNOPSIS</strong></label>
+            </div>
+            <div class="col-md-8">
+                <textarea id="synopsis" rows="10" cols="5" aria-label="editor" required></textarea>
+            </div>
+        </div>
+    </div>
+    <div id="reload" style="margin-top: 3%">
+        <h2 class="page-header text-center">SHOW TIMES</h2>
+        <div id="row">
+            <div id="tabs">
+                <div>
+                    <div id="showtimeGrid"> </div>
+                </div>
+            </div><br />
+        </div>
+    </div>
+    <br />
+    <div>
+        <button type="submit" class="btn btn-rounded btn-block text-center" style="background-color: #56baed; color: white; font-size: 25px; font-weight: bold">Add Movie</button>
+    </div>
+</form>
+
+
+
 @section Scripts{
-<<<<<<< HEAD
     <script src="~/js/main/addmovie.js"></script>
-=======
->>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
+    <script id="newShowTime" type="text/x-kendo-template">
+        <br>
+        <div>
+
+            <div class="row">
+                <div class="col-md-4"> Date:</div>
+                <div class="col-md-8">
+                    <input id="showdate" required />
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <br />
+                <div class="col-md-4"> Show Times:</div>
+                <div class="col-md-8">
+                    <input type="text" id="showtimes" required />
+                    <div><small>Enter correct time followed by (",")</small></div>
+                    <div><small>e.g 4:30pm,6:00pm</small></div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr />
+        <div class="dialog_buttons">
+            <button type="button" id="confirmShowTime" class="btn btn-primary-outline">Add ShowTime</button>
+            &nbsp;
+            <button type="button" id="cancel" class="btn btn-secondary-outline" style="width: 100px">Cancel</button>
+        </div>
+
+    </script>
 }
 
 
