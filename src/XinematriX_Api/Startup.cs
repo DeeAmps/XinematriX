@@ -19,13 +19,7 @@ namespace XinematriX.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-<<<<<<< HEAD
             services.AddCors();
-            //services.Configure<AppConfig>(Configuration.GetSection("AppConfig"));
-            //services.AddOptions();
-=======
-            //services.AddDbContext
->>>>>>> refs/remotes/origin/danny
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

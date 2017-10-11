@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using XinematriX_DataAccess.DBModels;
+using XinematriX.DataAccess.DBModels;
 
 namespace XinematriX_Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class ValuesController : Controller
     {
         
         [HttpGet]
+        [ActionName("GetGenre")]
         public List<MovieGenre> GetGenre()
         {
             using (var con = new XinematriXContext())
