@@ -1,5 +1,17 @@
 {
   "version": 1,
+<<<<<<< HEAD
   "dgSpecHash": "u8iHjWUZ9JO/M5WI32X3K0oDYlGW7Wzfv6QCd9xru3h3jXaiKxOmZmEV0NVXk9LMqG57zq8lQgluKLo1VaWFZA==",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "Bq1gxXRm7WZWC9JK6ysKnXN6Iwrmtd9ApN85YGngqzv/vPF8IRsH+NAngcb4nMYrlxpybbkV3w/1zXCicZV+Aw==",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "u8iHjWUZ9JO/M5WI32X3K0oDYlGW7Wzfv6QCd9xru3h3jXaiKxOmZmEV0NVXk9LMqG57zq8lQgluKLo1VaWFZA==",
+=======
+  "dgSpecHash": "xoNkQuzSYRfj/sqn7BUuZWbyNSSZ0cYPyeptQhRdFvHrL/nmhi7yplU2SbwbXCMbgCKcn0XH/Yk9EXVaB8by7w==",
+>>>>>>> a3fe7956ee5c9787d48f99dd2738c77e0b90f6bd
+>>>>>>> refs/remotes/origin/danny
+>>>>>>> refs/remotes/origin/danny
   "success": true
 }

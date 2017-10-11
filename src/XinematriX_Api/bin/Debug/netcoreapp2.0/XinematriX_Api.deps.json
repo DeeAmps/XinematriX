@@ -1,7 +1,11 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
+<<<<<<< HEAD
     "signature": "a7aa306d2e264d92ffef06296341a5e29b6e41eb"
+=======
+    "signature": "4ec83aaf87495cd6d0725e6b969eda2d061c33ec"
+>>>>>>> refs/remotes/origin/danny
   },
   "compilationOptions": {
     "defines": [
@@ -24,7 +28,12 @@
       "XinematriX_Api/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
+<<<<<<< HEAD
           "Microsoft.NETCore.App": "2.0.0"
+=======
+          "Microsoft.NETCore.App": "2.0.0",
+          "XinematriX_DataAccess": "1.0.0"
+>>>>>>> refs/remotes/origin/danny
         },
         "runtime": {
           "XinematriX_Api.dll": {}
@@ -1624,6 +1633,21 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.0.0",
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
+        }
+      },
+>>>>>>> refs/remotes/origin/danny
       "Microsoft.EntityFrameworkCore.Sqlite/2.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.0.0",
@@ -1654,6 +1678,22 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+      "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.0",
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {}
+        }
+      },
+>>>>>>> refs/remotes/origin/danny
       "Microsoft.EntityFrameworkCore.Tools/2.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.0.0"
@@ -3794,6 +3834,23 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+      "XinematriX_DataAccess/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.3",
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.0"
+        },
+        "runtime": {
+          "XinematriX_DataAccess.dll": {}
+        },
+        "compile": {
+          "XinematriX_DataAccess.dll": {}
+        }
+      },
+>>>>>>> refs/remotes/origin/danny
       "Microsoft.NETCore.App/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
@@ -4699,6 +4756,16 @@
       "path": "microsoft.entityframeworkcore.relational/2.0.0",
       "hashPath": "microsoft.entityframeworkcore.relational.2.0.0.nupkg.sha512"
     },
+<<<<<<< HEAD
+=======
+    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fR7rQ6EsZAwzm7eF0TvwMwoFMO9XYUXs/4YkYmVELBl5mJWaQj9kg0gkBYe1HGnvQ47UidzcLtLHhR+1Updztw==",
+      "path": "microsoft.entityframeworkcore.relational.design/1.1.3",
+      "hashPath": "microsoft.entityframeworkcore.relational.design.1.1.3.nupkg.sha512"
+    },
+>>>>>>> refs/remotes/origin/danny
     "Microsoft.EntityFrameworkCore.Sqlite/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -4720,6 +4787,16 @@
       "path": "microsoft.entityframeworkcore.sqlserver/2.0.0",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.2.0.0.nupkg.sha512"
     },
+<<<<<<< HEAD
+=======
+    "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F7JPxA8sAATDCkRf5xQjIH7gLpbpi7EDfQL9PObhErhv76dfbsJxIu/JiEzCuhDWIo83vECFk7V2Ssb4b8HZ1g==",
+      "path": "microsoft.entityframeworkcore.sqlserver.design/1.1.3",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.design.1.1.3.nupkg.sha512"
+    },
+>>>>>>> refs/remotes/origin/danny
     "Microsoft.EntityFrameworkCore.Tools/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -5980,6 +6057,14 @@
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
+<<<<<<< HEAD
+=======
+    "XinematriX_DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+>>>>>>> refs/remotes/origin/danny
     "Microsoft.NETCore.App/2.0.0": {
       "type": "package",
       "serviceable": true,

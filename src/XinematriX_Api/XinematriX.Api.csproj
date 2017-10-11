@@ -18,8 +18,12 @@
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD:src/XinematriX_Api/XinematriX.Api.csproj
     <ProjectReference Include="..\XinematriX_DataAccess\XinematriX.DataAccess.csproj" />
     <ProjectReference Include="..\XinematriX_Models\XinematriX.Models.csproj" />
+=======
+    <ProjectReference Include="..\XinematriX_DataAccess\XinematriX_DataAccess.csproj" />
+>>>>>>> refs/remotes/origin/danny:src/XinematriX_Api/XinematriX_Api.csproj
   </ItemGroup>
 
 </Project>

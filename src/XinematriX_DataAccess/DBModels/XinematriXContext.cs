@@ -2,16 +2,24 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
+<<<<<<< HEAD
 namespace XinematriX.DataAccess.DBModels
+=======
+namespace XinematriX_DataAccess.DBModels
+>>>>>>> refs/remotes/origin/danny
 {
     public partial class XinematriXContext : DbContext
     {
         public virtual DbSet<Movie> Movie { get; set; }
+<<<<<<< HEAD
         public virtual DbSet<MovieDatePromos> MovieDatePromos { get; set; }
         public virtual DbSet<MovieDayPromos> MovieDayPromos { get; set; }
         public virtual DbSet<MovieGenre> MovieGenre { get; set; }
         public virtual DbSet<MoviePolls> MoviePolls { get; set; }
         public virtual DbSet<MoviePollsOptions> MoviePollsOptions { get; set; }
+=======
+        public virtual DbSet<MovieGenre> MovieGenre { get; set; }
+>>>>>>> refs/remotes/origin/danny
         public virtual DbSet<MovieRating> MovieRating { get; set; }
         public virtual DbSet<WebAdminAuth> WebAdminAuth { get; set; }
 
@@ -19,7 +27,11 @@ namespace XinematriX.DataAccess.DBModels
         {
             if (!optionsBuilder.IsConfigured)
             {
+<<<<<<< HEAD
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+=======
+                //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+>>>>>>> refs/remotes/origin/danny
                 optionsBuilder.UseSqlServer(@"Server=xinematrix.database.windows.net;Database=XinematriX;User ID=Dee;Password=H3ll0w0rld123");
             }
         }
@@ -76,6 +88,7 @@ namespace XinematriX.DataAccess.DBModels
                     .HasConstraintName("fk_movie_rating");
             });
 
+<<<<<<< HEAD
             modelBuilder.Entity<MovieDatePromos>(entity =>
             {
                 entity.Property(e => e.PromoDate)
@@ -98,6 +111,8 @@ namespace XinematriX.DataAccess.DBModels
                     .IsUnicode(false);
             });
 
+=======
+>>>>>>> refs/remotes/origin/danny
             modelBuilder.Entity<MovieGenre>(entity =>
             {
                 entity.Property(e => e.MovieGenreType)
@@ -106,6 +121,7 @@ namespace XinematriX.DataAccess.DBModels
                     .IsUnicode(false);
             });
 
+<<<<<<< HEAD
             modelBuilder.Entity<MoviePolls>(entity =>
             {
                 entity.Property(e => e.Active)
@@ -131,6 +147,8 @@ namespace XinematriX.DataAccess.DBModels
                     .HasConstraintName("fk_MoviePolls_MoviePollsOptions");
             });
 
+=======
+>>>>>>> refs/remotes/origin/danny
             modelBuilder.Entity<MovieRating>(entity =>
             {
                 entity.Property(e => e.MovieRatingType)
