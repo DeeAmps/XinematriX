@@ -9,7 +9,7 @@ namespace XinematriX.DataAccess.DBModels
         public string WebAdminUsername { get; set; }
         public string WebAdminPassword { get; set; }
         public string WebAdminToken { get; set; }
-        public DateTime WebAdminTokenGeneratedDate { get; set; }
-        public DateTime WebAdminTokenExpiryDate { get; set; }
+        public DateTime? WebAdminTokenGeneratedDate { get; set; }
+        public DateTime? WebAdminTokenExpiryDate { get; set; }
     }
 }

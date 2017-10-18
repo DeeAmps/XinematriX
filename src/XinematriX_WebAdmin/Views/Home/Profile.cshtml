@@ -5,8 +5,22 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<form action="/" method="post">
+<form asp-action="Profile" method="post">
     <div>
+        @if (ViewData["Error"] != null)
+         {
+            <div class="alert alert-danger alert-dismissable">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>@ViewData["Error"]</strong>
+            </div>
+         }
+        @if (ViewData["Success"] != null)
+         {
+            <div class="alert alert-success alert-dismissable">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>@ViewData["Success"]</strong>
+            </div>
+         }
         <div class="row">
             <div class="col-md-3"> <strong>Old Password:</strong></div>
             <div class="col-md-5">
@@ -18,7 +32,7 @@
             <br />
             <div class="col-md-3"> <strong>New Password:</strong></div>
             <div class="col-md-5">
-                <input class="password" type="password" name="newpassword" required/>
+                <input id="pass" data-rule-minlength="6" data-msg-minlength="Password should be at least 6 characters" class="password" type="password" name="newpassword" required/>
             </div>
         </div>
         <br /><br />
@@ -26,7 +40,7 @@
             <br />
             <div class="col-md-3"> <strong>Confirm Password:</strong></div>
             <div class="col-md-5">
-                <input class="password" type="password" name="confirmpassword" required/>
+                <input class="password" type="password" data-msg-equalTo="Passwords dont match" name="confirmpassword" data-rule-equalTo="#pass" required/>
             </div>
         </div>
     </div>
@@ -37,6 +51,7 @@
 </form>
 
 @section Scripts{ 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script>
         $(function () {
             $(".password").width('70%').kendoMaskedTextBox();

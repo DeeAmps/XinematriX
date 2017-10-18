@@ -1,6 +1,6 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 
 namespace XinematriX.DataAccess.DBModels
 {
@@ -17,9 +17,10 @@ namespace XinematriX.DataAccess.DBModels
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+           
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                // To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer(@"Server=xinematrix.database.windows.net;Database=XinematriX;User ID=Dee;Password=H3ll0w0rld123");
             }
         }

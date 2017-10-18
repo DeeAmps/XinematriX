@@ -26,8 +26,10 @@ namespace XinematriX.DataAccess.DBHelper
                 {
                     var results = new List<VirtualMoviePolls>();
                     double sumVotes = 0;
-                    var cmd = new SqlCommand("\"GetPolls\"", con);
-                    cmd.CommandType = CommandType.StoredProcedure;
+                    var cmd = new SqlCommand("\"GetPolls\"", con)
+                    {
+                        CommandType = CommandType.StoredProcedure
+                    };
 
                     await con.OpenAsync();
                     var reader = cmd.ExecuteReaderAsync().Result;

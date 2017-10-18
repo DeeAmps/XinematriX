@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using XinematriX.DataAccess.DBModels;
 using XinematriX.Models.Models;
 
 namespace XinematriX.WebAdmin
@@ -18,6 +20,7 @@ namespace XinematriX.WebAdmin
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSignalRCore();
             services.AddMvc();
             //services.Configure<AppConfig>(Configuration.GetSection("AppConfig"));
         }
@@ -31,6 +34,7 @@ namespace XinematriX.WebAdmin
 
             //Configuration = builder.Build();
 
+           
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -40,14 +44,13 @@ namespace XinematriX.WebAdmin
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Login}/{action=Login}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

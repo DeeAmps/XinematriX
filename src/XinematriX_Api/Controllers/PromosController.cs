@@ -18,14 +18,16 @@ namespace XinematriX.Api.Controllers
         [ActionName("GetDaysOfWeek")]
         public List<DaysOfWeek> GetDaysOfWeek()
         {
-            var results = new List<DaysOfWeek>();
-            results.Add(new DaysOfWeek { Day = "Monday" });
-            results.Add(new DaysOfWeek { Day = "Tuesday" });
-            results.Add(new DaysOfWeek { Day = "Wednesday" });
-            results.Add(new DaysOfWeek { Day = "Thursday" });
-            results.Add(new DaysOfWeek { Day = "Friday" });
-            results.Add(new DaysOfWeek { Day = "Saturday" });
-            results.Add(new DaysOfWeek { Day = "Sunday" });
+            var results = new List<DaysOfWeek>
+            {
+                new DaysOfWeek { Day = "Monday" },
+                new DaysOfWeek { Day = "Tuesday" },
+                new DaysOfWeek { Day = "Wednesday" },
+                new DaysOfWeek { Day = "Thursday" },
+                new DaysOfWeek { Day = "Friday" },
+                new DaysOfWeek { Day = "Saturday" },
+                new DaysOfWeek { Day = "Sunday" }
+            };
 
             return results;
         }

@@ -7,35 +7,27 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Login</title>
-    <link href="~/css/login.css" rel="stylesheet" />
     <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-    <script src="~/lib/jquery/dist/jquery.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <link href="~/css/login.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
-    <div class="wrapper fadeInDown">
-        <div id="formContent">
-            <!-- Tabs Titles -->
-            <br>
-            <!-- Icon -->
-            <div class="fadeIn first">
-                <img src="~/images/danny.png" id="icon" alt="User Icon" />
-            </div>
-            @if (ViewData["ValidateCred"] != null)
-            {
-                <div class="alert alert-danger alert-dismissable" style="margin: 0 60px 0 60px">
-                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                    <strong>@ViewData["ValidateCred"]</strong>
-                </div>
-            }
-            <!-- Login Form -->
-            <form method="post" asp-action="Login">
-                <input type="text" id="login" class="fadeIn second" name="username" placeholder="login" required>
-                <input type="password" id="password" class="fadeIn third" name="password" placeholder="password" required>
-                <input type="submit" class="fadeIn fourth" value="Log In">
-            </form>
-
+    <div class="container text-center">
+        <div class="">
+            <img src="~/images/danny.png" id="icon" alt="User Icon" class="img img-thumbnail" width="175px" height="160px"/>
         </div>
+        @if (ViewData["Error"] != null)
+            {
+                <strong style="color: red; margin-top: 15px">@ViewData["Error"]</strong>
+            }
+        <!-- Login Form -->
+        <form method="post" asp-action="Login" class="form-signin">
+            <input type="text" id="login" name="username" placeholder="Login" class="form-control" required autofocus>
+            <input type="password" id="password" name="password" placeholder="Password" class="form-control" required>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
+
+        </form> 
     </div>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
